@@ -15,5 +15,27 @@
         </div>
         <script type="text/javascript" src="/ui/main.js">
         </script>
+         <script type= "text/javascript" language="javascript">
+		//var total=0;
+		function mathematic_op(num1,num2){
+			var atotal=num1+num2;
+			//var mtotal=num1*num2;
+			//var stotal=num1-num2;
+			//var dtotal=num1/num2;
+			document.write("ADDITION OPERATION<br />");
+			//document.write("SUBSTRACTION OPERATION<br />");
+			//document.write("MULTIPLICATION OPERATION<br />");
+			//document.write("DIVISION OPERATION<br />");
+			return atotal;
+			//return stotal;
+			//return mtotal;
+			//return dtotal;
+		}
+		var a=parseInt(prompt("Enter First Number"));
+		var b=parseInt(prompt("Enter Second Number"));
+		var total=mathematic_op(a,b);
+		document.write("result = " + total);
+		
+		</script>
     </body>
 </html>
